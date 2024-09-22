@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+#parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#rock {
+    background-image: url("image.png");
+    background-size: cover;
+}
+#paper {
+    background-image: url("paper2.png");
+    background-size: cover;
+}
+#seissor {
+    background-image: url("seiisor.png");
+    background-size: cover;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+#msg {
+    font-size: 2rem;
+    background-color: #081b31;
+    color: #fff;
+    display: inline;
+    padding: 1rem;
+    border: 0.5rem solid #081b31;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+/* Currency Converter */
+
+#parent-div2 {
+    margin-top: 450px;
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+
+body {
+    background-color: #f4e4ba;
+}
+
+#currency-image {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+#image {
+    height: 200px;
+    width: 200px;
+    background-image: url("WhatsApp Image 2024-09-18 at 18.10.08_93f75712.jpg");
+    background-size: cover;
+}
+
+form {
+    padding: 2rem;
+}
+
+form select, input, button {
+    width: 100%;
+    border: none;
+}
+
+#amount-div-para {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#amount, input {
+    height: 1.5rem;
+    border: 0.04rem solid lightgray;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 0.04rem solid lightgray;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container, select {
+    font-size: 1rem;
+    width: auto;
+}
+
+#currency-msg-div {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.currency-msg {
+    font-size: 1rem;
+}
+
+
+button {
+    height: 3rem;
+    border: 0.02rem solid black;
+    border-radius: 0.5rem;
+    background-color: #af4d98;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
