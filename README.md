@@ -1,1 +1,1 @@
-Fronend Project (Rock-Paper Scissor Game & Currency Converter)
+Frontend Project (Rock-Paper Scissor Game & Currency Converter)
